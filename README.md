@@ -1,1 +1,0 @@
-# mhairimccall.github.io
