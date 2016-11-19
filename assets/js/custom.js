@@ -45,6 +45,7 @@ $(document).ready(function () {
         backgrounds: [
         { src: 'assets/img/1.jpg', fade: 1000, delay: 9000 },
         { src: 'assets/img/2.jpg', fade: 1000, delay: 9000 },
+        { src: 'assets/img/3.jpg', fade: 1000, delay: 9000 },
         ]
     })('overlay', {
         /** SLIDESHOW OVERLAY IMAGE **/
@@ -125,6 +126,13 @@ $(document).ready(function () {
     WRITE YOUR CUSTOM SCRIPTS BELOW
     ======================================*/
 
+
+    /* Collapse navigation menu on click */
+    $(document).on('click', '.navbar-collapse.in', function (e) {
+        if ($(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle') {
+            $(this).collapse('hide');
+        }
+    });
 
 
 
