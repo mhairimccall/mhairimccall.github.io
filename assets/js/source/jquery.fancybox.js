@@ -57,7 +57,7 @@
             margin  : 20,
 
             width     : 800,
-            height    : 340,
+            height    : 540,
             minWidth  : 100,
             minHeight : 100,
             maxWidth  : 9999,

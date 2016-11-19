@@ -289,7 +289,12 @@ padding-top: 80px;
 MUSIC SECTION STYLES
 ==============================*/
 
-#music .caegories a.active {
+#music .musiccategories a.active {
+background-color: transparent;
+color: #fff;
+}
+
+#videos .videoscategories a.active {
 background-color: transparent;
 color: #fff;
 }
