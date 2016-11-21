@@ -149,6 +149,11 @@ display: block;
 margin: 50px 20px;
 }
 
+#home .musicandvideos {
+display: block;
+margin: 50px 20px;
+}
+
 /*Carousel Slider*/
 
 #carousel-slider {
