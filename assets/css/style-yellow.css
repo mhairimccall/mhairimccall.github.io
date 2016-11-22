@@ -97,12 +97,13 @@ background-color: transparent;
 MENU SECTION STYLES
 ============================================================ */
 .navbar-inverse {
-background-color: rgba(0, 0, 0, 0.4);
+background-color: rgba(0, 0, 0, 0.9);
 border-color: transparent;
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
 background-color: transparent;
+border-top: 1px solid rgb(137, 136, 24);
 border-bottom: 1px solid rgb(137, 136, 24);
 }
 
@@ -168,6 +169,11 @@ color: rgb(137, 136, 24);
 font-size: 16px;
 line-height: 25px;
 margin: 25px 20px;
+}
+
+#home .carousel-inner {
+  min-height: 100px;
+  max-height: 100px;
 }
 
 /* =============================================================
