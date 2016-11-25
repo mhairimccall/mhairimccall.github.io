@@ -180,6 +180,11 @@ margin: 25px 20px;
 ABOUT SECTION STYLES
 ============================================================ */
 
+#about .aboutinfo {
+display: block;
+margin: 10px 0px;
+}
+
 #about .social {
 display: block;
 margin: 50px 0px;
@@ -448,6 +453,10 @@ min-height:200px;
 }
 #contact .contact-wrapper h3 {
 color:rgb(137, 136, 24);
+}
+#contact .contact-wrapper a[href^="mailto:"]
+{ 
+  color: #fff;
 }
 #contact .social-below {
 display: block;
