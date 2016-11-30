@@ -48,7 +48,7 @@ text-transform: uppercase;
 
 .header hr {
 width: 50px;
-border-top: 2px solid rgb(137, 136, 24);
+border-top: 2px solid rgb(234, 224, 100);
 }
 
 
@@ -70,23 +70,23 @@ margin: 5px;
 .btn-custom-one {
 background-color: transparent;
 color: #fff;
-border: 2px solid rgb(137, 136, 24);
+border: 2px solid rgb(234, 224, 100);
 }
 
 .btn-custom-one:hover {
-background-color: rgb(137, 136, 24);
+background-color: rgb(234, 224, 100);
 text-decoration: none;
 color: #fff;
 }
 
 .btn-custom-two {
-color: #fff;
-background-color: rgb(137, 136, 24);
-border: 2px solid rgb(137, 136, 24);
+color: #000;
+background-color: rgb(234, 224, 100);
+border: 2px solid rgb(234, 224, 100);
 }
 
 .btn-custom-two:hover {
-border: 2px solid rgb(137, 136, 24);
+border: 2px solid rgb(234, 224, 100);
 text-decoration: none;
 color: #fff;
 background-color: transparent;
@@ -103,8 +103,8 @@ border-color: transparent;
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
 background-color: transparent;
-border-top: 1px solid rgb(137, 136, 24);
-border-bottom: 1px solid rgb(137, 136, 24);
+border-top: 1px solid rgb(234, 224, 100);
+border-bottom: 1px solid rgb(234, 224, 100);
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -126,10 +126,10 @@ font-family: 'Oswald', sans-serif;
 border-color: transparent;
 }
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-background-color: rgb(137, 136, 24);
+background-color: rgb(234, 224, 100);
 }
 .navbar-inverse .navbar-toggle {
-border-color: rgb(137, 136, 24);
+border-color: rgb(234, 224, 100);
 }
 
 
@@ -165,20 +165,24 @@ font-family: 'Oswald', sans-serif;
 }
 
 #carousel-slider p {
-color: rgb(137, 136, 24);
+color: rgb(234, 224, 100);
 font-size: 16px;
 line-height: 25px;
 margin: 25px 20px;
 }
 
 #home .carousel-inner {
-  min-height: 100px;
-  max-height: 100px;
+  min-height: 120px;
 }
 
 /* =============================================================
 ABOUT SECTION STYLES
 ============================================================ */
+
+#about .aboutinfo {
+display: block;
+margin: 10px 0px;
+}
 
 #about .social {
 display: block;
@@ -213,7 +217,7 @@ font-family: 'Oswald', sans-serif;
 
 #services .services-wrapper i {
 margin: 5px;
-color: rgb(137, 136, 24);
+color: rgb(234, 224, 100);
 font-size: 60px;
 }
 
@@ -278,7 +282,7 @@ padding: 30px 20px;
 font-weight: 900;
 text-transform: uppercase;
 font-size: 30px;
-color: rgb(137, 136, 24);
+color: rgb(234, 224, 100);
 }
 
 .light-pricing .pricing-footer {
@@ -336,12 +340,12 @@ cursor: pointer;
 -moz-transition: all 0.5s ease-in-out;
 -o-transition: all 0.5s ease-in-out;
 transition: all 0.5s ease-in-out;
-border: 1px solid rgb(137, 136, 24);
+border: 1px solid rgb(234, 224, 100);
 }
 
 #music .music-wrapper:hover {
 background-color: transparent;
-border: 1px solid rgb(137, 136, 24);
+border: 1px solid rgb(234, 224, 100);
 
 opacity: .80; /* standard: ff gt 1.5, opera, safari */
 -ms-filter: "alpha(opacity=80)"; /* ie 8 */
@@ -393,7 +397,7 @@ border-radius: 10px 10px 0px 0px;
 }
 
 .team-wrapper > .team-inner > a {
-color: rgb(137, 136, 24);
+color: rgb(234, 224, 100);
 width: 80px;
 height: 80px;
 border-radius: 50%;
@@ -401,7 +405,7 @@ border-radius: 50%;
 -webkit-border-radius: 50%;
 margin: 0 auto -50px;
 display: block;
-color: rgb(137, 136, 24);
+color: rgb(234, 224, 100);
 z-index: 999;
 font-size: 40px;
 padding: 15px 22px;
@@ -415,7 +419,7 @@ transition: all 0.8s ease-in-out;
 .team-wrapper > .team-inner > a:hover {
 color: #fff;
 text-decoration: none;
-background-color: rgb(137, 136, 24);
+background-color: rgb(234, 224, 100);
 }
 
 
@@ -428,7 +432,7 @@ border-left: 1px solid #fff;
 }
 
 .team-wrapper .description h5 {
-color: rgb(137, 136, 24);
+color: rgb(234, 224, 100);
 }
 
 
@@ -447,7 +451,11 @@ margin-bottom: 40px;
 min-height:200px;
 }
 #contact .contact-wrapper h3 {
-color:rgb(137, 136, 24);
+color:rgb(234, 224, 100);
+}
+#contact .contact-wrapper a[href^="mailto:"]
+{ 
+  color: #fff;
 }
 #contact .social-below {
 display: block;
