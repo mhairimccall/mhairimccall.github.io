@@ -328,7 +328,7 @@ color: #fff;
 transition-duration: 0.8s;
 }
 
-#music .music-wrapper {
+.music-wrapper {
 padding: 10px;
 border-radius: 5px;
 -moz-border-radius: 5px;
@@ -343,7 +343,7 @@ transition: all 0.5s ease-in-out;
 border: 1px solid rgb(234, 224, 100);
 }
 
-#music .music-wrapper:hover {
+.music-wrapper:hover {
 background-color: transparent;
 border: 1px solid rgb(234, 224, 100);
 
@@ -352,14 +352,11 @@ opacity: .80; /* standard: ff gt 1.5, opera, safari */
 filter: alpha(opacity=80); /* ie lt 7 */
 -khtml-opacity: .80; /* safari 1.x */
 -moz-opacity: .80; /* ff lt 1.5, netscape */
-
 }
 
-#music .music-wrapper h4 {
+.music-wrapper h4 {
 padding-top: 10px;
 }
-
-
 
 /*============================
 TEAM SECTION STYLES
